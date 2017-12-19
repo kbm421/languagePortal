@@ -1,0 +1,36 @@
+.pic_slide {
+  height: 300px;
+  width: 1000px;
+  background-color: brown;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu_icons {
+  display: block;
+  height: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  margin-left: : auto;
+  margin-right: au
+  text-align: center;
+}
+
+.menu_icons img{
+  width: 150px;
+  height: 150px;
+  border: 1px solid gray;
+}
+
+.menu_icons figure {
+  width: 150px;
+  height: 160px;
+  border: 1px solid gray;
+  display: inline-block;
+}
+
+.menu_icons figure figcaption{
+  border-top: 1px solid gray;
+  text-align: center;
+}

@@ -1,6 +1,12 @@
+html, body{
+  height: 100%;
+  background-color: gray;
+  margin: 0;
+}
+
 .top_wrapper {
-  width: 1280px;
-  margin : auto;
+  width: 100%;
+  height: 100%;
 }
 
 header {
@@ -9,30 +15,38 @@ header {
 }
 
 nav {
+  background-color: Black;
+  font-size: 0;
   text-align: center;
+  padding:0;
+  padding-top: 15px;
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px solid black;
 }
 
 nav ul {
+  margin: auto;
+  width: 1000px;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
   padding : 0;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: : 5px;
 }
 
 nav ul li {
-  width : 25.22%;
+  font-size: 18px;
+  width : 200px;
   display: inline-block;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 10px;
-  border-bottom: 3px solid black;
   font-weight: bold;
   text-align: center;
 }
 
 nav a:enabled {
-  color : black;
+    color: white;
 }
 
 nav ul li:active {
@@ -41,8 +55,14 @@ nav ul li:active {
 }
 
 nav ul li:hover {
-  border-color: yellow;
+  border-bottom: 5px solid yellow;
   color: yellow;
+}
+
+.display {
+  width: 1000px;
+  margin: auto;
+  height: 100%;
 }
 
 iframe {
