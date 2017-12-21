@@ -9,28 +9,64 @@
 .menu_icons {
   display: block;
   height: 50%;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: white;
   margin-left: : auto;
-  margin-right: au
+  margin-right: auto;
   text-align: center;
+}
+
+.fig_wrapper{
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu_icons img{
   width: 150px;
   height: 150px;
-  border: 1px solid gray;
 }
 
 .menu_icons figure {
   width: 150px;
   height: 160px;
-  border: 1px solid gray;
   display: inline-block;
 }
 
+.menu_icons figure img {
+	opacity: 1;
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+}
+.menu_icons figure:hover img {
+	opacity: .5;
+}
+
 .menu_icons figure figcaption{
-  border-top: 1px solid gray;
   text-align: center;
+}
+
+.bbs {
+  width: 1000px;
+  height: 100%;
+  background-color: white;
+  display: block;
+  padding-bottom: 50px;
+  background-color: white;
+  padding-top: 10px;
+  margin-left: : auto;
+  margin-right: auto;
+}
+
+.bbs ul {
+  width: 1000px;
+  margin:0;
+  list-style: none;
+}
+
+.bbs ul li {
+  width: 1000px;
+  text-align: center;
+  display: block;
 }
