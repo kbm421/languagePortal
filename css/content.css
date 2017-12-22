@@ -47,26 +47,9 @@
   text-align: center;
 }
 
-.bbs {
-  width: 1000px;
-  height: 100%;
-  background-color: white;
-  display: block;
-  padding-bottom: 50px;
-  background-color: white;
-  padding-top: 10px;
-  margin-left: : auto;
+table {
+  width: 800px;
+  margin-left: auto;
   margin-right: auto;
-}
-
-.bbs ul {
-  width: 1000px;
-  margin:0;
-  list-style: none;
-}
-
-.bbs ul li {
-  width: 1000px;
-  text-align: center;
-  display: block;
+  border: 1px solid black;
 }
